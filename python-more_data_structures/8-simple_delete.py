@@ -7,4 +7,4 @@ def simple_delete(a_dictionary, key=""):
     else:
         pop = a_dictionary
         pop.pop(key)
-        return pop  
+        return pop
