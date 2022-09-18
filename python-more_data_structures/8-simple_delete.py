@@ -8,3 +8,4 @@ def simple_delete(a_dictionary, key=""):
         pop = a_dictionary
         pop.pop(key)
         return pop
+
