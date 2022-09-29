@@ -9,4 +9,3 @@ def save_to_json_file(my_obj, filename):
     """save object to a file"""
     with open(filename, 'w+') as file_open:
         file_open.write(json.dumps(my_obj))
-
