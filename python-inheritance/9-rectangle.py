@@ -23,4 +23,3 @@ class Rectangle(BaseGeometry):
         super().__init__()
         module = f"[Rectangle] {self.__width}/{self.__height}"
         return (module)
-
